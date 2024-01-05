@@ -1,13 +1,12 @@
-package io.cloudtype.Demo;
+package kr.kro.dongmuda;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class MainApplicationTests {
+    @Test
+    void contextLoads() {
 
-	@Test
-	void contextLoads() {
-	}
-
+    }
 }

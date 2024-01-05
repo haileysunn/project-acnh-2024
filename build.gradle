@@ -2,12 +2,13 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.9'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+	id 'war'
 }
 
-group = 'io.cloudtype'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+group = 'kr.kro.dongmuda'
+version = '0.0.1'
+sourceCompatibility = '18'
+targetCompatibility = '18'
 
 repositories {
 	mavenCentral()
